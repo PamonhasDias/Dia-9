@@ -22,7 +22,7 @@
         float: left;
         font-weight: 300;
         font-size: 1.8rem;
-        position: fixed 0;
+        margin-left: 10px;
         
     }
     .content__container__list {
