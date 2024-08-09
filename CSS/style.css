@@ -551,7 +551,7 @@ video{
     -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     animation-name: change;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     
   }
@@ -574,48 +574,55 @@ video{
   @keyframes change {
     0%, 5% {
       transform: translate3d(0, 0, 0);
+
     }
   
     10%, 15% {
-      transform: translate3d(0, -10%, 0);
+      transform: translate3d(0, -9%, 0);
     }
   
     20%, 25% {
-      transform: translate3d(0, -20%, 0);
+      transform: translate3d(0, -18%, 0);
     }
   
     30%, 35% {
-      transform: translate3d(0, -30%, 0);
+      transform: translate3d(0, -27%, 0);
     }
   
     40%, 45% {
-      transform: translate3d(0, -40%, 0);
+      transform: translate3d(0, -36.4%, 0);
     }
 
     50%, 55% {
-        transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -45.5%, 0);
     }
 
     60%, 65% {
-        transform: translate3d(0, -60%, 0);
+        transform: translate3d(0, -54%, 0);
     }
 
     70%, 75% {
 
-        transform: translate3d(0, -70%, 0);
+        transform: translate3d(0, -63.5%, 0);
     }
     80%, 85%{
 
-        transform: translate3d(0, -80%, 0);
+        transform: translate3d(0, -72%, 0);
     }
 
     90%, 95%{
         
+        transform: translate3d(0, -82%, 0);
+    }   
+
+    96%, 97%, 98%, 99%{
+        
         transform: translate3d(0, -90%, 0);
     }
-  
-    100% {
-      transform: translate3d(0, -100%, 0);
+
+    110% {
+      transform: translate3d(0, -110%, 0);
+     
     }
   }
 
